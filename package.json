@@ -1,0 +1,24 @@
+{
+  "name": "calculate-ts-pg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.0",
+    "install": "^0.13.0",
+    "morgan": "^1.10.0",
+    "npm": "^10.9.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/morgan": "^1.9.9"
+  }
+}
